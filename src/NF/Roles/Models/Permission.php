@@ -2,10 +2,10 @@
 
 namespace NF\Roles\Models;
 
-use NF\Roles\Traits\Slugable;
 use Illuminate\Database\Eloquent\Model;
-use NF\Roles\Traits\PermissionHasRelations;
 use NF\Roles\Contracts\PermissionHasRelations as PermissionHasRelationsContract;
+use NF\Roles\Traits\PermissionHasRelations;
+use NF\Roles\Traits\Slugable;
 
 class Permission extends Model implements PermissionHasRelationsContract
 {
